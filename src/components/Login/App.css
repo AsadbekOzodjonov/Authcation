@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Lora&family=Nanum+Gothic&family=Raleway:wght@100;200&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Lato", "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 500;
+  line-height: 1.2;
+  color: #272d4e;
+}
+.Login {
+  background-image: url(/public/images/hero-bg.png);
+  background-size: cover;
+  height: 780px;
+  margin-top: -150px;
+  margin-left: 25%;
+  background-repeat: no-repeat;
+  /* background-size: 10px; */
+}
+.Login input {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputPlechOne {
+  display: flex;
+  margin-left: -280px;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 30%;
+  padding: 7px;
+  margin-bottom: 30px;
+}
+.inputPlechTwo {
+  display: flex;
+  margin-left: -280px;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 30%;
+  padding: 7px;
+  margin-bottom: 3%;
+}
+.yourEmail {
+  margin-top: 250px;
+}
+.HandleButton {
+  width: 130px;
+  margin-left: -280px;
+  margin-right: 100px;
+  border-radius: 5px;
+  padding: 3px;
+  border: none;
+  color: white;
+  background-color: rgb(82, 82, 210);
+  cursor: pointer;
+}
+.HandleButtonOne {
+  width: 130px;
+  margin-left: -80px;
+  border-radius: 5px;
+  padding: 3px;
+  border: none;
+  color: white;
+  background-color: rgb(82, 82, 210);
+  cursor: pointer;
+}
+.HandleButtonOne:hover {
+  transform: scale(1.1);
+  transition: all 1.2s ease;
+}
+.HandleButton:hover {
+  transform: scale(1.1);
+  transition: all 1.2s ease;
+}
+.MuiButton-sizeMedium {
+  text-decoration: none !important;
+}
+
+.Images {
+  margin-left: -400px;
+  font-size: 30px;
+}
+
+h1,
+.h1 {
+  font-size: calc(1.37383rem + 1.48598vw);
+}
+
+@media (min-width: 1200px) {
+  h1,
+  .h1 {
+    font-size: 2.48832rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: calc(1.33236rem + 0.98832vw);
+}
+
+@media (min-width: 1200px) {
+  h2,
+  .h2 {
+    font-size: 2.0736rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: calc(1.2978rem + 0.5736vw);
+}
+
+@media (min-width: 1200px) {
+  h3,
+  .h3 {
+    font-size: 1.728rem;
+  }
+}
+
+h4,
+.h4 {
+  font-size: calc(1.269rem + 0.228vw);
+}
+
+@media (min-width: 1200px) {
+  h4,
+  .h4 {
+    font-size: 1.44rem;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 1.2rem;
+}
+
+h6,
+.h6 {
+  font-size: 0.83333rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol,
+ul {
+  padding-left: 2rem;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}

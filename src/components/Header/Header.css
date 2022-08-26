@@ -1,0 +1,45 @@
+.Header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0 !important;
+  background-color: white;
+  padding: 20px 20px;
+  z-index: 99999999999;
+}
+
+.Header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-left: 50px;
+  align-items: center;
+  color: black;
+}
+.Header ul li a {
+  color: black;
+}
+.MuiPaper-root {
+  top: 80px !important;
+  overflow: hidden !important;
+  z-index: 999999999999999999999 !important;
+  margin-bottom: 20px !important;
+}
+.MuiButtonBase-root ul li a {
+  color: black !important;
+  z-index: 999999999999999999999 !important;
+}
+.MenuItems a {
+  color: black;
+  z-index: 999999999999999999999 !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  color: black !important;
+  z-index: 999999999999999999999 !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  color: blue !important;
+  z-index: 999999999999999999999 !important;
+}
